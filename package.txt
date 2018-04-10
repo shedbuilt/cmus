@@ -1,0 +1,9 @@
+NAME=cmus
+VERSION=2.8.0-rc0
+REVISION=1
+LICENSE=GPL-2.0-or-later
+SRC=https://github.com/cmus/cmus/archive/v2.8.0-rc0.tar.gz
+SRCMD5=3710250b2f2529435d178634d22b6382
+PURGE=yes
+BUILDDEPS=alsa-lib libmad libvorbis flac faad2 ncurses systemd
+INSTALLDEPS=alsa-lib libmad libvorbis flac faad2 ncurses systemd
